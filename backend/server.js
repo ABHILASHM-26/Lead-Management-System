@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://lead-management-system-lyart.vercel.app/,
+    origin: "https://lead-management-system-lyart.vercel.app/",
     credentials: true,
   })
 );
