@@ -1,0 +1,45 @@
+# Ignore node_modules for both frontend and backend
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+**/.env
+
+# Ignore build output
+frontend/build/
+frontend/dist/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Optional: Ignore coverage if testing
+coverage/
+
+# Ignore any local database or dump files
+*.local
+*.db
+*.sqlite
+dump.sql
+
+# Ignore all coverage and test output
+*.lcov
+
+# Ignore Mac OS and Linux specific hidden files
+*.swo
+*.swp
